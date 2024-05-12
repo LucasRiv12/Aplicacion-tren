@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Personas que entran:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">SUMA GENTE</button>
+        <button id="decrement-btn" onclick="decrement()">RESTA GENTE</button>
+        <button id="save-btn" onclick="save()">GUARDAR</button><br>
+        <p id="save-El">Entradas Anteriores: </p><br>
+        <button id="reset-btn" onclick="reset()">RESETEAR</button>
+    </header>
+    <section>
+        <div id="boton"><button id="tiempo-tren" onclick="mostrar()"> TIEMPO ESTIMADO TRENES </button></div>
+        <table id="tabla">
+            <tr>
+                <th id="color-tr">
+                    Trenes
+                </th>
+                <th id="color-ti">
+                    Tiempo estimado
+                </th>
+            </tr>
+            <tr>
+                <td id="color-ci"> Madrid-Valencia </td>
+                <td id="color-min"> 3min </td>
+            </tr>
+            <tr>
+                <td id="color-ci"> Madrid-Barcelona</td>
+                <td id="color-min"> 5min </td>
+            </tr>
+            <tr>
+                <td id="color-ci"> Madrid-Sevilla</td>
+                <td id="color-min"> 10min </td>
+            </tr>
+            <tr>
+                <td id="color-ci"> Madrid-Burgos</td>
+                <td id="color-min"> 1min </td>
+            </tr>
+            <tr>
+                <td id="color-ci"> Madrid-Vigo</td>
+                <td id="color-min"> 25min </td>
+            </tr>
+            <tr>
+                <td id="color-ci"> Madrid-Logroño</td>
+                <td id="color-min"> 6min </td>
+            </tr>
+        </table>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
